@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:dimgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.form {
+    background-color: lightcyan;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px black;
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+h2 {
+    margin-bottom: 30px;
+    text-align: center;
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="checkbox"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.sex {
+    display: flex;
+    margin-bottom: 10px;
+    text-align: start;
+    justify-content: center;
+}
+
+.sex input[type="checkbox"] {
+    margin-right: 15px;
+}
+
+.sex label {
+    margin-right: 15px;
+    justify-content: center;
+
+}
+
+.botão {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color:lightskyblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: darkslateblue;
+}
